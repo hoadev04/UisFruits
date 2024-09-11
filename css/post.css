@@ -1,0 +1,9 @@
+.topper>li>.dropdown-menu>a {
+    text-transform: capitalize !important;
+    font-size: 14px;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    white-space: nowrap;
+    background: transparent;
+}
