@@ -1,0 +1,68 @@
+body {
+    background-color: #f4f4f4;
+}
+.login-container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.login-btn {
+    background-color: #82ae46;
+    color: #fff;
+    border: none;
+}
+.login-btn:hover {
+    background-color: #6f943a;
+}
+.form-control:focus {
+    border-color: #82ae46;
+    box-shadow: 0 0 0 0.2rem rgba(130, 174, 70, 0.25);
+}
+.extra-links {
+    margin-top: 15px;
+    text-align: center;
+}
+.extra-links a {
+    color: #82ae46;
+    text-decoration: none;
+}
+.extra-links a:hover {
+    text-decoration: underline;
+}
+
+/* Register */
+
+.signup-container {
+    max-width: 500px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.signup-btn {
+    background-color: #82ae46;
+    color: #fff;
+    border: none;
+}
+.signup-btn:hover {
+    background-color: #6f943a;
+}
+.form-control:focus {
+    border-color: #82ae46;
+    box-shadow: 0 0 0 0.2rem rgba(130, 174, 70, 0.25);
+}
+.extra-links {
+    margin-top: 15px;
+    text-align: center;
+}
+.extra-links a {
+    color: #82ae46;
+    text-decoration: none;
+}
+.extra-links a:hover {
+    text-decoration: underline;
+}
