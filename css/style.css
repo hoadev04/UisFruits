@@ -10011,3 +10011,49 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+    /* Manager Account */
+    body {
+      background-color: #f4f4f4;
+      color: #333;
+  }
+  
+  h1 {
+      color: #82ae46;
+  }
+  
+  .bg-main {
+      background-color: #82ae46 !important;
+  }
+  
+  .text-main {
+      color: #82ae46;
+  }
+  
+  .btn-main {
+      background-color: #82ae46;
+      color: white;
+      border: none;
+  }
+  
+  .btn-main:hover {
+      background-color: #6f963b;
+  }
+  
+  .card {
+      margin-bottom: 20px;
+  }
+  .badge-success-custom {
+    background-color: #28a745;
+    color: white;
+}
+
+.badge-warning-custom {
+    background-color: #ffc107;
+    color: black;
+}
+
+.badge-danger-custom {
+    background-color: #dc3545;
+    color: white;
+}

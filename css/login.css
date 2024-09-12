@@ -32,37 +32,37 @@ body {
 .extra-links a:hover {
     text-decoration: underline;
 }
-
-/* Register */
-
-.signup-container {
-    max-width: 500px;
-    margin: 100px auto;
+.login-wrapper {
+    display: flex;
+    height: 100vh;
+}
+.login-left {
+    flex: 1;
+    background: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 20px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
-.signup-btn {
-    background-color: #82ae46;
-    color: #fff;
-    border: none;
+.login-left h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
 }
-.signup-btn:hover {
-    background-color: #6f943a;
+.login-left p {
+    font-size: 1.25rem;
+    color: #6c757d;
 }
-.form-control:focus {
-    border-color: #82ae46;
-    box-shadow: 0 0 0 0.2rem rgba(130, 174, 70, 0.25);
+.login-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    padding: 20px;
 }
-.extra-links {
-    margin-top: 15px;
-    text-align: center;
-}
-.extra-links a {
-    color: #82ae46;
-    text-decoration: none;
-}
-.extra-links a:hover {
-    text-decoration: underline;
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
 }
